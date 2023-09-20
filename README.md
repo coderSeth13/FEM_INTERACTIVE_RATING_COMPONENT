@@ -4,8 +4,12 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here]([https://your-live-site-url.com](https://coderseth13.github.io/FEM_INTERACTIVE_RATING_COMPONENT/))
+Check out my solution and live site below: 
+
+- Solution URL: [https://coderseth13.github.io/FEM_INTERACTIVE_RATING_COMPONENT](https://your-solution-url.com)
+- Live Site URL: [https://coderseth13.github.io/FEM_INTERACTIVE_RATING_COMPONENT/]()
+
+Thanks
 
 ### Screenshot
 
