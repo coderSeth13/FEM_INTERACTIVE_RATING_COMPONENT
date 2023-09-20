@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interactive Rating Card</title>
+
+    <!--CSS link -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- JS link -->
+    <script src="main.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="card" id="rate-page">
+        <div class="rate-btn | flex-group">
+          <img src="images/icon-star.svg" alt="star icon" star-icon />
+        </div>
+
+        <div>
+          <h1 class="heading">How did we do?</h1>
+          <p class="spacer" data-max-width>
+            Please let us know how we did with your support request. All
+            feedback is appreciated to help us improve our offering!
+          </p>
+        </div>
+
+        <div class="rate-buttons">
+          <button class="rate-btn | btn flex-group" data-rating>1</button>
+          <button class="rate-btn | btn flex-group" data-rating>2</button>
+          <button class="rate-btn | btn flex-group" data-rating>3</button>
+          <button class="rate-btn | btn flex-group" data-rating>4</button>
+          <button class="rate-btn | btn flex-group" data-rating>5</button>
+        </div>
+
+        <button class="btn" id="rate-btn">Submit</button>
+      </div>
+
+      <div class="card [ remove ]" id="rate-again-page" data-center-align>
+        <div data-center-align>
+          <img src="images/illustration-thank-you.svg" alt="" />
+        </div>
+
+        <span>You selected <span id="rating">5</span> out of 5</span>
+
+        <div>
+          <h1 class="heading">Thank you!</h1>
+          <p class="spacer" data-max-width>
+            We appreciate you taking the time to give a rating. If you ever need
+            more support, don’t hesitate to get in touch!
+          </p>
+        </div>
+
+        <button class="btn" id="rate-again-btn">Rate again</button>
+      </div>
+
+      <div class="coderSeth | spacer">Coded by <a href="#">coderSeth</a>.</div>
+    </div>
+  </body>
+</html>

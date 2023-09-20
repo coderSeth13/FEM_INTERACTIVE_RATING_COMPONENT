@@ -1,0 +1,183 @@
+:root {
+  --clr-primary-400: hsl(25, 97%, 53%);
+  --clr-secondary-900: hsl(0, 0%, 100%);
+  --clr-secondary-700: hsl(217, 12%, 63%);
+  --clr-secondary-500: hsl(216, 12%, 54%);
+  --clr-secondary-400: hsl(213, 19%, 18%);
+  --clr-secondary-100: hsl(216, 12%, 8%);
+
+  --clr-bg-btn: var(--clr-primary-400);
+  --clr-btn-hover: var(--clr-primary-400);
+  --clr-bg-btn-hover: var(--clr-secondary-900);
+  --clr-bg-rate-btn: var(--clr-secondary-100);
+  --clr-rate-btn-focus: var(--clr-secondary-900);
+  --clr-bg-rate-btn-focus: var(--clr-secondary-700);
+  --clr-bg-star: var(--clr-primary-400);
+  --clr-heading: var(--clr-secondary-900);
+  --clr-text: var(--clr-secondary-700);
+  --clr-bg-card: var(--clr-secondary-400);
+  --clr-bg-body: var(--clr-secondary-100);
+
+  --ff-primary: ;
+
+  --ff-body: var(--ff-primary);
+  --ff-heading: var(--ff-primary);
+
+  --fw-regular: 400;
+  --fw-bold: 700;
+
+  --fw-heading: var(--fw-bold);
+  --fw-btn: var(--fw-bold);
+  --fw-body: var(--fw-regular);
+
+  --fs-100: 0.9375rem;
+  --fs-200: 1rem;
+  --fs-300: 1.25rem;
+
+  --fs-body: var(--fs-100);
+  --fs-btn: var(--fs-200);
+  --fs-heading: var(--fs-300);
+}
+
+/* Reset styling */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  font: inherit;
+}
+
+img,
+svg,
+picture {
+  display: block;
+  max-width: 100%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li a {
+  text-decoration: none;
+}
+
+body {
+  font-family: var(--ff-body);
+  font-size: var(--fs-body);
+  font-weight: var(--fw-body);
+  background-color: var(--clr-bg-body);
+  color: var(--clr-text);
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+}
+
+/* Properties */
+
+.card {
+  background: var(--clr-bg-card);
+  border-radius: 1.5rem;
+  padding: 1rem;
+  display: grid;
+  gap: 1.5rem;
+}
+
+.card > span {
+  width: fit-content;
+  margin-inline: auto;
+  padding: 0.5rem 1rem;
+  border-radius: 100vw;
+  color: var(--clr-bg-btn);
+  background-color: var(--clr-secondary-500);
+}
+
+.heading {
+  color: var(--clr-heading);
+  font-size: var(--fs-heading);
+  font-family: var(--ff-heading);
+}
+
+.btn {
+  cursor: pointer;
+  padding: 0.8rem 1.5rem;
+  border: none;
+  background-color: var(--clr-bg-btn);
+  border-radius: 100vw;
+  font-size: var(--fs-btn);
+  font-weight: var(--fw-btn);
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+  color: var(--clr-text);
+}
+
+.btn:hover {
+  background-color: var(--clr-bg-btn-hover);
+  color: var(--clr-btn-hover);
+}
+
+.rate-buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+.rate-btn {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  background-color: var(--clr-bg-rate-btn);
+  color: var(--clr-text);
+}
+
+[data-rating]:hover {
+  background-color: var(--clr-btn-hover);
+  color: var(--clr-bg-btn-hover);
+}
+
+[data-rating]:focus {
+  color: var(--clr-rate-btn-focus);
+  background-color: var(--clr-bg-rate-btn-focus);
+}
+
+/* Utilities */
+
+.remove {
+  display: none;
+}
+
+.spacer {
+  margin-top: 0.5rem;
+}
+
+[data-center-align] {
+  text-align: center;
+  margin-inline: auto;
+}
+
+.flex-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+[data-display-none] {
+  display: none;
+}
+
+p[data-max-width] {
+  max-width: 40ch;
+}
+
+.coderSeth {
+  font-size: 12px;
+  text-align: center;
+}
+.coderSeth a {
+  color: hsl(228, 45%, 44%);
+}
