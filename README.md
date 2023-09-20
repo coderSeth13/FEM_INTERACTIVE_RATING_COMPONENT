@@ -8,3 +8,5 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ### Screenshot
+
+![fem_interactive_rating_component](https://github.com/coderSeth13/FEM_INTERACTIVE_RATING_COMPONENT/assets/145410639/c34fc141-b47d-4c60-8ff5-3a079d1228fb)
