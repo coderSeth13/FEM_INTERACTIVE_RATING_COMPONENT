@@ -136,7 +136,7 @@ body {
 .rate-buttons {
   display: flex;
   justify-content: space-between;
-  /* gap: rem; */
+  gap: 0.3rem;
 }
 
 .rate-btn {
