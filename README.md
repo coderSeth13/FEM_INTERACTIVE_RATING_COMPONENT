@@ -13,4 +13,5 @@ Thanks
 
 ### Screenshot
 
-![fem_interactive_rating_component](https://github.com/coderSeth13/FEM_INTERACTIVE_RATING_COMPONENT/assets/145410639/c34fc141-b47d-4c60-8ff5-3a079d1228fb)
+![Screenshot 2023-09-20 at 05-12-55 Interactive Rating Card](https://github.com/coderSeth13/FEM_INTERACTIVE_RATING_COMPONENT/assets/145410639/56e56230-6565-4547-a9a7-ae037082530b)
+
