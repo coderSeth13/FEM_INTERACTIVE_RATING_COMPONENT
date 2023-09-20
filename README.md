@@ -4,7 +4,14 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+Check out my solution and live site below: 
+
+- Solution URL: [https://coderseth13.github.io/FEM_INTERACTIVE_RATING_COMPONENT](https://your-solution-url.com)
+- Live Site URL: [https://coderseth13.github.io/FEM_INTERACTIVE_RATING_COMPONENT/]()
+
+Thanks
 
 ### Screenshot
+
+![Screenshot 2023-09-20 at 05-12-55 Interactive Rating Card](https://github.com/coderSeth13/FEM_INTERACTIVE_RATING_COMPONENT/assets/145410639/56e56230-6565-4547-a9a7-ae037082530b)
+
