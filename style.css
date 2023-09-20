@@ -4,21 +4,30 @@
   --clr-secondary-700: hsl(217, 12%, 63%);
   --clr-secondary-500: hsl(216, 12%, 54%);
   --clr-secondary-400: hsl(213, 19%, 18%);
-  --clr-secondary-100: hsl(216, 12%, 8%);
+  --clr-secondary-300: hsl(204, 20%, 20%);
+  --clr-secondary-100: hsl(240, 7%, 9%);
 
+  --clr-grad-primary-100: hsl(210, 29%, 12%);
+  --clr-grad-primary-200: hsl(210, 22%, 16%);
+
+  --clr-btn: var(--clr-secondary-900);
   --clr-bg-btn: var(--clr-primary-400);
   --clr-btn-hover: var(--clr-primary-400);
   --clr-bg-btn-hover: var(--clr-secondary-900);
-  --clr-bg-rate-btn: var(--clr-secondary-100);
+  --clr-bg-rate-btn: var(--clr-secondary-300);
   --clr-rate-btn-focus: var(--clr-secondary-900);
   --clr-bg-rate-btn-focus: var(--clr-secondary-700);
   --clr-bg-star: var(--clr-primary-400);
   --clr-heading: var(--clr-secondary-900);
   --clr-text: var(--clr-secondary-700);
-  --clr-bg-card: var(--clr-secondary-400);
+  --clr-bg-card: linear-gradient(
+    to top,
+    var(--clr-grad-primary-100),
+    var(--clr-grad-primary-200)
+  );
   --clr-bg-body: var(--clr-secondary-100);
 
-  --ff-primary: ;
+  --ff-primary: "Overpass", sans-serif;
 
   --ff-body: var(--ff-primary);
   --ff-heading: var(--ff-primary);
@@ -95,7 +104,7 @@ body {
   padding: 0.5rem 1rem;
   border-radius: 100vw;
   color: var(--clr-bg-btn);
-  background-color: var(--clr-secondary-500);
+  background-color: var(--clr-bg-rate-btn);
 }
 
 .heading {
@@ -114,7 +123,7 @@ body {
   font-weight: var(--fw-btn);
   letter-spacing: 0.2rem;
   text-transform: uppercase;
-  color: var(--clr-text);
+  color: var(--clr-btn);
 }
 
 .btn:hover {
@@ -124,6 +133,7 @@ body {
 
 .rate-buttons {
   display: flex;
+  justify-content: space-between;
   gap: 1rem;
 }
 
@@ -171,7 +181,7 @@ body {
 }
 
 p[data-max-width] {
-  max-width: 40ch;
+  max-width: 34ch;
 }
 
 .coderSeth {
