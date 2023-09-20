@@ -40,12 +40,12 @@
   --fw-body: var(--fw-regular);
 
   --fs-100: 0.9375rem;
-  --fs-200: 1rem;
-  --fs-300: 1.25rem;
+  --fs-200: 1.5rem;
+  --fs-300: 1.8rem;
 
   --fs-body: var(--fs-100);
-  --fs-btn: var(--fs-200);
-  --fs-heading: var(--fs-300);
+  --fs-btn: var(--fs-100);
+  --fs-heading: var(--fs-200);
 }
 
 /* Reset styling */
@@ -88,14 +88,16 @@ body {
   min-height: 100vh;
 }
 
-/* Properties */
+.container {
+  margin-inline: 1.5rem;
+}
 
 .card {
   background: var(--clr-bg-card);
-  border-radius: 1.5rem;
-  padding: 1rem;
+  border-radius: 1rem;
+  padding: 1.5rem;
   display: grid;
-  gap: 1.5rem;
+  gap: 1rem;
 }
 
 .card > span {
@@ -134,7 +136,7 @@ body {
 .rate-buttons {
   display: flex;
   justify-content: space-between;
-  gap: 1rem;
+  /* gap: rem; */
 }
 
 .rate-btn {
@@ -181,13 +183,30 @@ body {
 }
 
 p[data-max-width] {
-  max-width: 34ch;
+  max-width: 37ch;
 }
 
 .coderSeth {
   font-size: 12px;
   text-align: center;
 }
+
 .coderSeth a {
   color: hsl(228, 45%, 44%);
+}
+
+.coderSeth a:hover {
+  text-decoration: none;
+}
+
+@media (min-width: 500px) {
+  :root {
+    --fs-heading: var(--fs-300);
+  }
+
+  .card {
+    border-radius: 1.5rem;
+    padding: 2rem;
+    gap: 2rem;
+  }
 }
