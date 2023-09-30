@@ -6,6 +6,8 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
 
 Check out my solution and live site below: 
 
+- Twitter: https://twitter.com/coderSeth13?s=09
+- Instagram: https://www.instagram.com/coderseth13.cs/
 - Solution URL: https://github.com/coderSeth13/FEM_INTERACTIVE_RATING_COMPONENT.git
 - Live Site URL: https://coderseth13.github.io/FEM_INTERACTIVE_RATING_COMPONENT/
 
